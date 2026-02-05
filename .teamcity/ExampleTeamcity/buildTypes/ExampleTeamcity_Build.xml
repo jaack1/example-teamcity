@@ -4,7 +4,7 @@
   <description />
   <settings>
     <options>
-      <option name="artifactRules" value="artifacts/*.jar" />
+      <option name="artifactRules" value="*.jar" />
       <option name="publishArtifactCondition" value="SUCCESSFUL" />
     </options>
     <build-runners>
