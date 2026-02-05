@@ -4,7 +4,6 @@
   <description />
   <settings>
     <disabled-settings>
-      <setting-ref ref="TRIGGER_1" />
       <setting-ref ref="TRIGGER_2" />
     </disabled-settings>
     <build-runners>
