@@ -3,9 +3,6 @@
   <name>Build</name>
   <description />
   <settings>
-    <disabled-settings>
-      <setting-ref ref="TRIGGER_2" />
-    </disabled-settings>
     <build-runners>
       <runner id="Maven2" name="test" type="Maven2">
         <conditions>
@@ -43,13 +40,6 @@
       <build-trigger id="TRIGGER_1" type="vcsTrigger">
         <parameters>
           <param name="branchFilter" value="+:*" />
-          <param name="enableQueueOptimization" value="true" />
-          <param name="quietPeriodMode" value="DO_NOT_USE" />
-        </parameters>
-      </build-trigger>
-      <build-trigger id="TRIGGER_2" type="vcsTrigger">
-        <parameters>
-          <param name="branchFilter" value="+:master" />
           <param name="enableQueueOptimization" value="true" />
           <param name="quietPeriodMode" value="DO_NOT_USE" />
         </parameters>
