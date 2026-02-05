@@ -5,6 +5,7 @@
   <settings>
     <disabled-settings>
       <setting-ref ref="TRIGGER_1" />
+      <setting-ref ref="TRIGGER_2" />
     </disabled-settings>
     <build-runners>
       <runner id="Maven2" name="test" type="Maven2">
